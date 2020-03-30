@@ -1,0 +1,247 @@
+/* Title Section */
+.nav-icons {
+  margin-right: 10px;
+}
+
+.title-container {
+  color: white;
+  margin-top: 20%;
+}
+
+.title-container h1 {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.title-container p {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  padding-top: 0;
+}
+
+.title-buttons {
+  margin-right: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+#title {
+  background-image: url(imgs/sushi.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 900px;
+}
+
+/* Info Section */
+.info-img {
+  height: 400px;
+  width: auto;
+  margin-top: 10%;
+  margin-left: 100px;
+}
+
+.info-text {
+  padding-top: 10%;
+}
+
+/* Reservations Section */
+.reservations {
+  background-color: #393e46;
+  height: 500px;
+  margin-top: 7%;
+}
+
+.reservations-content {
+  text-align: center;
+  padding-top: 10%;
+  color: white;
+}
+
+.reservations-content h2 {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 4rem;
+}
+
+.reservations-content p {
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.reservations-button {
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid white;
+  background-color: Transparent;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 36px;
+}
+
+.reservations-button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Location Section */
+
+.location-container {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.card-text {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.card-text h5 {
+  font-weight: 700;
+}
+
+.location-buttons {
+  letter-spacing: 2px;
+}
+
+/* Menu Section */
+
+#menu {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.menu-container {
+  background-color: #222831;
+}
+
+.menu-container h3 {
+  padding-top: 5%;
+}
+
+.menu-headings {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.ss-container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.sandwiches-container {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.mains-container {
+  margin-top: 5%;
+  padding-bottom: 7%;
+}
+
+.col-lg-6 h4 {
+  font-weight: 700;
+}
+
+span {
+  margin-left: 30px;
+}
+
+/* Footer */
+#footer {
+  background-color: #eeeeee;
+  height: 250px;
+}
+
+.footer-icons-container {
+  text-align: center;
+  padding-top: 7%;
+}
+
+.footer-icons {
+  margin-right: 35px;
+}
+
+.footer-text {
+  margin-top: 15px;
+}
+
+/* Media Querys */
+
+@media (max-width: 550px) {
+
+  body {
+  margin-right: 0;
+  }
+
+  .title-container {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+  }
+
+  .title-container h1 {
+    font-size: 1rem;
+  }
+
+  .title-container p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.2rem;
+  }
+
+  .menu-container {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #title {
+    height: 400px;
+  }
+
+  .info-img {
+    margin-right: 10%;
+  }
+
+  .footer-icons-container {
+    padding-top: 17%;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 980px) {
+  .title-container h1 {
+    font-size: 2rem;
+  }
+
+  #title {
+    height: 500px;
+    width: auto;
+  }
+
+  .info-img {
+
+  }
+
+  .reservations-content {
+    padding-top: 20%;
+  }
+
+  .card-title {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1340px) {
+  #title {
+    background-image: url(imgs/sushi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
